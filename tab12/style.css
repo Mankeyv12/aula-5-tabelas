@@ -6,7 +6,13 @@
             padding: 40px 20px;
             color: #ff0000;
         }
- 
+        tbody tr:hover {
+    background-color: #EAE8FF;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+
         .container {
             max-width: 1200px;
             margin: 0 auto;

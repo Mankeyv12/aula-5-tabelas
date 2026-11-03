@@ -7,6 +7,14 @@ body {
             min-height: 100vh;
             margin: 0;
         }
+
+tbody tr:hover {
+    background-color: #EAE8FF;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+
  
         .card {
             background-color: #ffffff;
