@@ -1,0 +1,108 @@
+ 
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #7affd3;
+            padding: 40px 20px;
+            display: flex;
+            justify-content: center;
+        }
+ 
+        .table-container {
+            width: 100%;
+            max-width: 1200px;
+            background-color: #fc6b6b;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(248, 50, 50, 0.05);
+            overflow: hidden;
+        }
+ 
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            text-align: left;
+        }
+ 
+        thead th {
+            background-color: #3c69f1;
+            color: #f76d6d;
+            font-size: 11px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            padding: 12px 20px;
+            border: none;
+        }
+ 
+        thead tr.main-header th {
+            padding-bottom: 4px;
+        }
+ 
+        thead tr.sub-header th {
+            padding-top: 4px;
+            padding-bottom: 12px;
+            color: #6b8db9;
+        }
+ 
+        .text-center { text-align: center; }
+        .text-right { text-align: right; }
+ 
+        tbody td {
+            padding: 18px 20px;
+            font-size: 14px;
+            color: #3a6fcc;
+            border-bottom: 1px solid #418ef3;
+            vertical-align: middle;
+        }
+ 
+        .region-cell {
+            font-weight: bold;
+            color: #5782d6;
+            background-color: #e66666;
+            width: 15%;
+        }
+ 
+        .font-bold {
+            font-weight: bold;
+            color: #6d95e4;
+        }
+ 
+        tbody tr.total-row td {
+            background-color: #6ca4c9;
+            border-top: 2px solid #6ea1d6;
+            border-bottom: none;
+            padding: 22px 20px;
+        }
+ 
+        .status-badge {
+            display: inline-block;
+            padding: 6px 12px;
+            border-radius: 4px;
+            font-size: 12px;
+            font-weight: 500;
+            text-align: center;
+            width: 110px;
+        }
+ 
+        .status-atingida {
+            background-color: #343694;
+            color: #89a316;
+        }
+ 
+        .status-nao-atingida {
+            background-color: #24bb7c;
+            color: #acdc26;
+        }
+ 
+        .status-sucesso {
+            background-color: #20ffec;
+            color: #20ffec;
+        }
+ 
+        .growth-positive {
+            color: #a39516;
+            font-weight: 500;
+        }
+ 
+        .growth-negative {
+            color: #da15b9;
+            font-weight: 500;
+        }
